@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Fundo */
+body {
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  color: #e2e8f0;
+}
+
+/* Container */
+.exercise-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(59, 130, 246, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Botão */
+button {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #f8fafc;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Títulos */
+h1,
+h2 {
+  margin-bottom: 15px;
+  color: #f8fafc;
+}
+
+/* Botão voltar*/
+.back-btn {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
